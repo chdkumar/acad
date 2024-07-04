@@ -4,12 +4,12 @@ import ButtonAppBar from "./AppBar";
 import PermanentDrawerLeft from "./PermanentDrawer";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
-import Counter from "./components/usestatedemo";
+import Counter from "../../acad/src/components/usestatecounterbeautified";
 
 function App() {
   return (
     <Provider store={store}>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "inline" }}>
         <ButtonAppBar />
         <PermanentDrawerLeft />
         <Box
